@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object datatype-Assignment-1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /* we can write css here */
+    </style>
+    <script src="./js/script.js"></script>
+    <script>
+        // we can write js code here
+        //lets create news1
+        var news1 = {     //This is an object
+            //1.property:value
+            w1: "The",
+            w2: "Minisrty",
+            w3: "of",
+            w4: 'Home',
+            w5: `affairs`,
+            w6: "said",
+            w7: 'special',
+            w8: `Commissioner`,
+            w9: "Shalini",
+            w10: 'Singh',
+            w11: "will be",
+            w12: "conduct",
+            w13: 'detailed',
+            w14: `enquiry`,
+            w15: 'into',
+            w16: "the",
+            w17: 'incident',
+            w18: `and`,
+            w19: "a report",
+            w20: 'will',
+            w21: "submitted",
+            w22: 'to',
+            w23: "ministry",
+            w24: "'immediatly.'"
+            //2.
+        }
+        // object.property    thgis is a variable to store all information
+        var publish1 = news1.w1 + " " + news1.w2 + " " + news1.w3 + ' ' + news1.w4 + ` ` + news1.w5 + " " + news1.w6 + ' ' + news1.w7 + ` ` + news1.w8 + " " + news1.w9 + ' ' + news1.w10 + " " + news1.w11 + ` ` + news1.w12 + " " + news1.w13 + ' ' + news1.w14 + " " + news1.w15 + ` ` + news1.w16 + " " + news1.w17 + " " + news1.w18 + ' ' + news1.w19 + " " + news1.w20 + ' ' + news1.w21 + " " + news1.w22 + " " + news1.w23 + ' ' + news1.w24;
+
+        //lets see the output
+        // this is one of the 4 methods to log/display the JS code
+        //method 1
+
+        //console.log(publish1);
+        //This is 3rd method to log/display js code
+        alert(publish1)
+
+        //this is 4th method to log/display the js code
+        document.write('<div>' + publish1 + '</div>')
+
+
+
+    </script>
+</head>
+
+<body>
+
+    <div id="news_1"></div>
+    <p class="news_2"></p>
+    <h4 id="news_3"></h4>
+
+    <script src="./js/script2.js"></script>
+    <script>
+        // here we can write js code
+
+        //This is 2nd method to log/display JS code
+        document.getElementById('news_1').innerHTML = publish1;
+
+        var news2 = {  //this is an object
+            //1. property:value
+            w1: "According",
+            w2: 'to',
+            w3: `Delhi`,
+            w4: "polcie,",
+            w5: 'the accused',
+            w6: `Deepak`,
+            w7: "Khanna",
+            w8: "had",
+            w9: 'borrowed a',
+            w10: "car",
+            w11: `at`,
+            w12: "arround",
+            w13: '8 PM',
+            w14: "on",
+            w15: 'december',
+            w16: `december`,
+            w17: "31"
+            //2.
+
+        }
+        // object.property    thgis is a variable to store all information
+        var publish2 = news2.w1 + " " + news2.w2 + ' ' + news2.w3 + ` ` + news2.w4 + " " + news2.w5 + ' ' + news2.w6 + " " + news2.w7 + " " + ' ' + news2.w8 + ` ` + news2.w9 + " " + news2.w10 + ' ' + news2.w11 + ` ` + news2.w12 + " " + news2.w13 + ' ' + news2.w14 + ` ` + news2.w15 + " " + news2.w16 + ' ' + news2.w17;
+        //lets see the output of js code
+
+        // this is one of the 4 methods to log/display the JS code.
+        console.log(publish2);
+
+        //this is second method to log/display the JS output.
+        document.write('<div>' + publish2 + '</div>')
+
+
+        //this is 3rd method toi display the js code
+        document.querySelector('p.news_2').innerHTML = publish2;
+
+        //this is 4th method to log/display JS code
+        alert(publish2);
+        document.getElementById('news_3').innerHTML = publish3;
+    </script>
+</body>
+
+</html>
